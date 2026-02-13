@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'TokenGate - Access Control',
-  description: 'Manage access with credentials on Base and Stacks',
+  title: 'TokenGate',
+  description: 'Access control based on token ownership',
 }
 
 export default function RootLayout({
