@@ -1,12 +1,12 @@
 [project]
-name = "voting"
-requirements = []
+name = "tokengate"
+description = "Unique voting contract for project 08"
+authors = ["solidworkssa"]
+telemetry = false
 cache_dir = ".cache"
 
-[contracts.voting]
-path = "contracts/voting.clar"
-clarity_version = 2
+[contracts.tokengate]
+path = "contracts/tokengate.clar"
 
-[repl]
-costs_version = 2
-parser_version = 2
+[repl.analysis]
+passes = ["check_checker"]
