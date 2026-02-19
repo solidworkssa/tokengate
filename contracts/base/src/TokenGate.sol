@@ -2,8 +2,11 @@
 pragma solidity ^0.8.20;
 
 /// @title TokenGate Contract
+/// @author solidworkssa
 /// @notice Access control based on token ownership.
 contract TokenGate {
+    string public constant VERSION = "1.0.0";
+
 
     mapping(address => bool) public admins;
     mapping(address => uint256) public requiredBalance; // token address -> min balance
